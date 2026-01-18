@@ -7,7 +7,7 @@ return [
     'import_action_heading' => 'استيراد Excel',
     'import_action_description' => 'استيراد البيانات إلى قاعدة البيانات من ملف Excel',
     'excel_data' => 'بيانات Excel',
-    'download_sample_excel_file' => 'تحميل ملف Excel تجريبي',
+    'download_sample_excel_file' => 'تحميل ملف تجريبي',
 
     // Import Status Title
     'import_failed' => 'فشل الاستيراد',
