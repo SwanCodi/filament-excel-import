@@ -7,7 +7,7 @@ Excel Import for Filament Admin Panel
 
 🇸🇦 الوصف | Description
 
-**Filament Excel Import** هي حزمة Laravel تتيح استيراد ملفات Excel بسهولة ومرونة داخل **Filament Admin Panel**.  
+هي حزمة Laravel تتيح استيراد ملفات Excel بسهولة ومرونة داخل **Filament Admin Panel**.  
 تم بناء هذه الحزمة بالاعتماد على مشروع مفتوح المصدر موجود مسبقًا، وقد قمت بإضافة **الترجمة العربية وتحسين تجربة الاستخدام** فقط، دون تعديل جوهري على الكود الأصلي.
 
 **Filament Excel Import** is a Laravel package that allows you to easily import Excel files into the **Filament Admin Panel**.  
