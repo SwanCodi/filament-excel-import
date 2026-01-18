@@ -64,7 +64,8 @@ trait HasSampleExcelFile
 
     protected function getSampleExcelButton()
     {
-        $action = Action::make($this->sampleButtonLabel ?: __('excel-import::excel-import.download_sample_excel_file'));
+        $action = Action::make($this->sampleButtonLabel ?: __('excel-import::excel-import.download_sample_excel_file'))
+        ->label( __('excel-import::excel-import.download_sample_excel_file'));
         if (is_string($this->sampleData)) {
             $action->url($this->sampleData);
         } else {
