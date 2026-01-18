@@ -2,26 +2,28 @@
 
 // translations for EightyNine/ExcelImportAction
 return [
+
     // Import Action Labels
-    'import_action_heading' => 'Import Excel',
-    'import_action_description' => 'Import data into database from Excel file',
-    'excel_data' => 'Excel Data',
-    'download_sample_excel_file' => 'Download Sample Excel File',
-    
+    'import_action_heading' => 'استيراد Excel',
+    'import_action_description' => 'استيراد البيانات إلى قاعدة البيانات من ملف Excel',
+    'excel_data' => 'بيانات Excel',
+    'download_sample_excel_file' => 'تحميل ملف Excel تجريبي',
+
     // Import Status Title
-    'import_failed' => 'Import Failed',
-    'import_warning' => 'Import Warning',
-    'import_information' => 'Import Information',
-    'import_success' => 'Import Success',
-    
+    'import_failed' => 'فشل الاستيراد',
+    'import_warning' => 'تحذير الاستيراد',
+    'import_information' => 'معلومات الاستيراد',
+    'import_success' => 'تم الاستيراد بنجاح',
+
     // Success Message
-    'import_success_message' => 'Import completed successfully',
+    'import_success_message' => 'تم الانتهاء من الاستيراد بنجاح',
 
     // Validation Messages
-    'validation_failed' => 'Row :row failed validation. The following messages were returned: :messages',
-    
+    'validation_failed' => 'فشلت الصف :row في التحقق من الصحة. تم إرجاع الرسائل التالية: :messages',
+
     // File Validation Errors
-    'file_empty_error' => 'The uploaded file is empty or has no valid data.',
-    'header_read_error' => 'Unable to read the header row from the uploaded file.',
-    'missing_headers_error' => 'Missing required headers: :missing. Expected headers: :expected',
+    'file_empty_error' => 'الملف المرفوع فارغ أو لا يحتوي على بيانات صالحة.',
+    'header_read_error' => 'تعذر قراءة صف العنوان من الملف المرفوع.',
+    'missing_headers_error' => 'العناوين المطلوبة مفقودة: :missing. العناوين المتوقعة: :expected',
+
 ];
